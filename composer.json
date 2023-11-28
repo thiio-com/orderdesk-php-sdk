@@ -1,0 +1,31 @@
+{
+    "name": "thiio/orderdesk",
+    "description": "This is a SDK built in PHP for consuming orderdesk api as detailed in https://www.orderdesk.com",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Thiio\\Orderdesk\\": "src/",
+            "Thiio\\Orderdesk\\Models\\": "src/models/",
+            "Thiio\\Orderdesk\\Requests\\": "src/requests/",
+            "Thiio\\Orderdesk\\Exceptions\\": "src/exceptions/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thiio\\Orderdesk\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Enrique Hoy Chi",
+            "email": "enrique@thiio.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
