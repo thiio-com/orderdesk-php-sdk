@@ -1,15 +1,15 @@
 <?php
 
-namespace WebforceHQ\OrderDesk;
+namespace Thiio\OrderDesk;
 
 
-use WebforceHQ\OrderDesk\Requests\TestRequest;
-use WebforceHQ\OrderDesk\Requests\OrderRequest;
-use WebforceHQ\OrderDesk\Requests\ShipmentRequest;
-use WebforceHQ\OrderDesk\Requests\MoveOrderRequest;
-use WebforceHQ\OrderDesk\Requests\OrderItemRequest;
-use WebforceHQ\OrderDesk\Requests\OrderHistoryRequest;
-use WebforceHQ\OrderDesk\Requests\InventoryItemsRequest;
+use Thiio\OrderDesk\Requests\TestRequest;
+use Thiio\OrderDesk\Requests\OrderRequest;
+use Thiio\OrderDesk\Requests\ShipmentRequest;
+use Thiio\OrderDesk\Requests\MoveOrderRequest;
+use Thiio\OrderDesk\Requests\OrderItemRequest;
+use Thiio\OrderDesk\Requests\OrderHistoryRequest;
+use Thiio\OrderDesk\Requests\InventoryItemsRequest;
 
 class Client
 {

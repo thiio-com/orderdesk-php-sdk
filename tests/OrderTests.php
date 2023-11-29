@@ -1,14 +1,14 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use WebforceHQ\OrderDesk\Client;
-use WebforceHQ\OrderDesk\Models\Address;
-use WebforceHQ\OrderDesk\Models\Discount;
-use WebforceHQ\OrderDesk\Models\Order;
-use WebforceHQ\OrderDesk\Models\OrderItem;
-use WebforceHQ\OrderDesk\Models\OrderNote;
-use WebforceHQ\OrderDesk\Models\ReturnAddress;
-use WebforceHQ\OrderDesk\Models\Shipment;
+use Thiio\OrderDesk\Client;
+use Thiio\OrderDesk\Models\Address;
+use Thiio\OrderDesk\Models\Discount;
+use Thiio\OrderDesk\Models\Order;
+use Thiio\OrderDesk\Models\OrderItem;
+use Thiio\OrderDesk\Models\OrderNote;
+use Thiio\OrderDesk\Models\ReturnAddress;
+use Thiio\OrderDesk\Models\Shipment;
 
 class OrderTests extends TestCase{
 

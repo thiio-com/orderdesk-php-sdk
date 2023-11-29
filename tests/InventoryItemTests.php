@@ -2,8 +2,8 @@
 
 use PHPUnit\Framework\TestCase;
 
-use WebforceHQ\OrderDesk\Client;
-use WebforceHQ\OrderDesk\Models\InventoryItem;
+use Thiio\OrderDesk\Client;
+use Thiio\OrderDesk\Models\InventoryItem;
 
 class InventoryItemTests extends TestCase{
 
