@@ -4,21 +4,25 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Thiio\\Orderdesk\\": "src/",
-            "Thiio\\Orderdesk\\Models\\": "src/models/",
-            "Thiio\\Orderdesk\\Requests\\": "src/requests/",
-            "Thiio\\Orderdesk\\Exceptions\\": "src/exceptions/"
+            "Thiio\\OrderDesk\\": "src/",
+            "Thiio\\OrderDesk\\Models\\": "src/models/",
+            "Thiio\\OrderDesk\\Requests\\": "src/requests/",
+            "Thiio\\OrderDesk\\Exceptions\\": "src/exceptions/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Thiio\\Orderdesk\\": "tests/"
+            "Thiio\\OrderDesk\\": "tests/"
         }
     },
     "authors": [
         {
             "name": "Carlos Enrique Hoy Chi",
             "email": "enrique@thiio.com"
+        },
+        {
+            "name": "WebforceHQ",
+            "email": "fordonez@webforcehq.com"
         }
     ],
     "minimum-stability": "dev",
