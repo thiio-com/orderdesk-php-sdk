@@ -1,10 +1,10 @@
 <?php
 
-namespace WebforceHQ\OrderDesk\Requests;
+namespace Thiio\OrderDesk\Requests;
 
-use WebforceHQ\OrderDesk\Models\Shipment;
-use WebforceHQ\OrderDesk\OrderDeskRequest;
-use WebforceHQ\OrderDesk\Exceptions\OrderDeskUnsetIdentifierException;
+use Thiio\OrderDesk\Models\Shipment;
+use Thiio\OrderDesk\OrderDeskRequest;
+use Thiio\OrderDesk\Exceptions\OrderDeskUnsetIdentifierException;
 
 class ShipmentRequest extends OrderDeskRequest
 {

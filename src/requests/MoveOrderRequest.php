@@ -1,10 +1,10 @@
 <?php
 
 
-namespace WebforceHQ\OrderDesk\Requests;
+namespace Thiio\OrderDesk\Requests;
 
-use WebforceHQ\OrderDesk\Models\MoveOrder;
-use WebforceHQ\OrderDesk\OrderDeskRequest;
+use Thiio\OrderDesk\Models\MoveOrder;
+use Thiio\OrderDesk\OrderDeskRequest;
 
 class MoveOrderRequest extends OrderDeskRequest
 {

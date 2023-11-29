@@ -1,8 +1,8 @@
 <?php
 
-namespace WebforceHQ\OrderDesk\Requests;
+namespace Thiio\OrderDesk\Requests;
 
-use WebforceHQ\OrderDesk\OrderDeskRequest;
+use Thiio\OrderDesk\OrderDeskRequest;
 
 class TestRequest extends OrderDeskRequest
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace WebforceHQ\OrderDesk\Models;
+namespace Thiio\OrderDesk\Models;
 
-use WebforceHQ\OrderDesk\Models\Address;
-use WebforceHQ\OrderDesk\Models\OrderNote;
-use WebforceHQ\OrderDesk\Models\InventoryItem;
-use WebforceHQ\OrderDesk\Models\Discount;
+use Thiio\OrderDesk\Models\Address;
+use Thiio\OrderDesk\Models\OrderNote;
+use Thiio\OrderDesk\Models\InventoryItem;
+use Thiio\OrderDesk\Models\Discount;
 
 
 class Order extends OrderDeskModel

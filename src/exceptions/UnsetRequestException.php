@@ -1,6 +1,6 @@
 <?php
 
-namespace WebforceHQ\OrderDesk\Exceptions;
+namespace Thiio\OrderDesk\Exceptions;
 
 use Exception;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace WebforceHQ\OrderDesk\Models;
+namespace Thiio\OrderDesk\Models;
 
-use WebforceHQ\OrderDesk\Models\OrderDeskModel;
+use Thiio\OrderDesk\Models\OrderDeskModel;
 
 class Discount extends OrderDeskModel
 {

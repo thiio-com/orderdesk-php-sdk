@@ -1,11 +1,11 @@
 <?php
 
 
-namespace WebforceHQ\OrderDesk\Requests;
+namespace Thiio\OrderDesk\Requests;
 
-use WebforceHQ\OrderDesk\OrderDeskRequest;
-use WebforceHQ\OrderDesk\Models\OrderHistory;
-use WebforceHQ\OrderDesk\Exceptions\OrderDeskUnsetIdentifierException;
+use Thiio\OrderDesk\OrderDeskRequest;
+use Thiio\OrderDesk\Models\OrderHistory;
+use Thiio\OrderDesk\Exceptions\OrderDeskUnsetIdentifierException;
 
 class OrderHistoryRequest extends OrderDeskRequest
 {

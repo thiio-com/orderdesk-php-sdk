@@ -1,11 +1,11 @@
 <?php
 
-namespace WebforceHQ\OrderDesk;
+namespace Thiio\OrderDesk;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Exception\ClientException;
-use WebforceHQ\OrderDesk\Exceptions\UnsetRequestException;
+use Thiio\OrderDesk\Exceptions\UnsetRequestException;
 
 
 class OrderDeskRequest

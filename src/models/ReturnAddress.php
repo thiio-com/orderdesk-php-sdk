@@ -1,6 +1,6 @@
 <?php
 
-namespace WebforceHQ\OrderDesk\Models;
+namespace Thiio\OrderDesk\Models;
 
 class ReturnAddress extends OrderDeskModel
 {

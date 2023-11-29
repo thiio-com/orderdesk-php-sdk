@@ -1,10 +1,10 @@
 <?php
 
-namespace WebforceHQ\OrderDesk\Requests;
+namespace Thiio\OrderDesk\Requests;
 
-use WebforceHQ\OrderDesk\Models\OrderItem;
-use WebforceHQ\OrderDesk\OrderDeskRequest;
-use WebforceHQ\OrderDesk\Exceptions\OrderDeskUnsetIdentifierException;
+use Thiio\OrderDesk\Models\OrderItem;
+use Thiio\OrderDesk\OrderDeskRequest;
+use Thiio\OrderDesk\Exceptions\OrderDeskUnsetIdentifierException;
 
 class OrderItemRequest extends OrderDeskRequest
 {
